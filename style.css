@@ -1,0 +1,30 @@
+:root {
+    --bege-principal: #FFE285;
+    --azul-secundario: #5729FA;
+    --braco-fundo: #EEEAFB;
+}
+
+body {
+    background-color: var(--braco-fundo);
+    color: var(--azul-secundario);
+}
+
+strong {
+    color: var(--bege-principal);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.principal {
+    background-image: url(images/one-piece.jpg);
+    background-size: contain;
+
+}
+
+.container {
+    height: 100dvb;
+
+}
