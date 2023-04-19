@@ -1,36 +1,37 @@
-:root {
-    --bege-principal: #FFE285;
-    --azul-secundario: #5729FA;
-    --braco-fundo: #EEEAFB;
-}
-
-body {
-    background-color: var(--braco-fundo);
-    color: var(--azul-secundario);
-}
-
-strong {
-    color: var(--bege-principal);
-}
-
 * {
     margin: 0;
     padding: 0;
 }
 
-.principal {
-    background-image: url(images/one-piece.jpg);
-    background-size: contain;
+body {
+    color: rgb(254, 249, 249);
+    background-color: black;
 
 }
 
-.container {
-    height: 100dvb;
+.apresentacao {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 8%;
+    justify-content: space-between;
 
 }
-
-.container--botao {
-
-    background-color:#5729FA ;
     
+.titulo {
+    color: brown;
+    font-size: larger;
+
+}
+
+.apresentacao__1 {
+    width: 30%;
+}
+
+.images {
+    width: 50%;
+}
+
+.conteudo {
+    font-size: small;
 }
